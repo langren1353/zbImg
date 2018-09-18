@@ -48,3 +48,8 @@
 .s_tab_inner{
     display:block !important;
 }
+.hint_common_restop{
+    position: absolute;
+    left: calc(50% - 502px);
+    margin-top: 25px;
+}

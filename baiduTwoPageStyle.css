@@ -24,13 +24,13 @@
 #container .head_nums_cont_outer .search_tool_conter,#container .head_nums_cont_outer .nums {
     width: 80%;
 }
-#container .head_nums_cont_outer {
+#container .head_nums_cont_outer, .hint_common_restop{
     left: 10%;
     width: 80%;
 }
 #content_left {
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     margin: 0 auto;
     position: relative;
     padding-left: 5%;
