@@ -25,6 +25,7 @@
     width: 80%;
 }
 #container .head_nums_cont_outer, .hint_common_restop{
+    position: relative;
     left: 10%;
     width: 80%;
 }
