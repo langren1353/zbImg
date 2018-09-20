@@ -1,0 +1,68 @@
+#container{
+    width: 100% !important;
+}
+#form{
+    position:relative;
+    left:calc(44vw - 380px);
+    background-color: unset;
+    width:50%;
+}
+.wrapper_l #form #kw{
+    width:98% !important;
+}
+#result_logo{
+    position: relative;
+    left: calc(44vw - 380px);
+    margin:10px 0 0;
+}
+#s_tab b,#s_tab a{
+    position:relative;
+    left:calc(50% - 445px);
+}
+#container .head_nums_cont_outer{
+    position:absolute;
+    left:calc(45vw - 500px);
+}
+#content_left,#rs,#page{
+    padding-top: 35px;
+    position:relative;
+    padding-left: 0;
+    width: 50%!important;
+    min-width: 670px;
+    float:unset;
+    margin-left: unset;
+    margin: 0 auto;
+}
+#rs .tt{
+    margin:0px -20px 1px 0px;
+}
+#content_left .c-container{
+    width: 100% !important;
+    min-width:650px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 1000px) {
+    #content_left, #rs{
+        min-width:850px;
+    }
+}
+#content_right{
+    margin-right: calc(15vw - 210px);
+    display:none;
+}
+@media screen and (min-width:1800px){   
+  #content_right{   
+    display:block;
+  }   
+}
+#page a, #page strong{
+    margin-right: 2.6vw !important;
+}
+.s_tab_inner{
+    display:block !important;
+}
+.hint_common_restop{
+    position: absolute;
+    left: calc(50% - 502px);
+    margin-top: 25px;
+}

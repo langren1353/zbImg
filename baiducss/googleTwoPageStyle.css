@@ -1,0 +1,66 @@
+.srg {
+    position: relative;
+    float: unset;
+}
+#double {
+    width: 47%;
+    margin-left: 49%;
+    position: absolute;
+    max-width: 670px;
+    z-index:1;
+}
+.srg>#double>.g {
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 20px 15px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+}
+.srg>.g, .bkWMgd>.g{
+    width: unset !important;
+    margin-left: 20px;
+    overflow: hidden;
+    padding: 0px 20px 15px !important;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    box-sizing: border-box !important;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1) !important;
+    -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1) !important;
+    -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1) !important;
+}
+.search>#ires .srg>.g{
+    max-width: unset;
+}
+.mw #rhs{
+    display:none;
+}
+.mw{
+    max-width: unset;
+}
+#acid_src>div{
+    width: unset;
+    margin-left: 38px;
+}
+.col{
+    width: 100% !important;
+}
+.col #center_col{
+    width: 100% !important;
+    margin-left: unset !important;
+}
+#acid_src{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+}
+.srg{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+}

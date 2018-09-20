@@ -1,0 +1,67 @@
+#center_col>*{
+    padding-left: unset;
+    padding-right: unset;
+    width: 100vw;
+}
+#center_col .sp-separator{
+    width: 890px;
+    margin: 0 auto;
+}
+#taw{
+    max-width:unset;
+}
+.bkWMgd .g{
+    width: 890px !important;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+.bkWMgd>div:not([class]){
+    width: 860px !important;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+#rs, .srg .g .rc .s{
+    max-width:unset;
+}
+#res{
+    margin-left:unset !important;
+}
+.sfibbbc{
+    width: 760px;
+}
+.tsf-p>.logocont{
+    padding-left: calc(50vw - 450px) !important;
+}
+.tsf-p>.sfibbbc{
+    padding-left: calc(50vw - 470px) !important;
+}
+#top_nav #hdtb-s{
+    padding-left: 19vw;
+}
+.appbar #extabar #topabar{
+    padding-left: 19vw;
+}
+#ires #brs{
+    padding-left: calc(37vw - 200px);
+}
+#ires #rso{
+    width:100vw;
+}
+#center_col{
+    margin-left: 0 !important;
+}
+#center_col #foot{
+    width: 100vw;
+    margin: 0 auto;
+}
+.mw #rhs {
+    margin-left: calc(38vw + 670px);
+}
+.mw #rhs{   
+    display:none;
+}
+@media screen and (min-width:1800px){   
+  .mw #rhs{   
+    display:block !important;
+  }   
+}
