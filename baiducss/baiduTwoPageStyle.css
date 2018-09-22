@@ -2,7 +2,7 @@
     width: auto;
 }
 #sej-container{
-    margin-left: calc(12%) !important;
+    padding-left: calc(12% - 113px) !important;
 }
 #form {
     position: relative;
