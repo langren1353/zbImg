@@ -1,7 +1,7 @@
 #container {
     width: auto;
 }
-#container #sej-container{
+#sej-container{
     margin-left: calc(12%) !important;
 }
 #form {

@@ -1,7 +1,7 @@
 #container{
     width: 100% !important;
 }
-#container #sej-container{
+#sej-container{
     margin-left: calc(44% - 365px) !important;
 }
 #form{
@@ -27,7 +27,7 @@
     left:calc(45vw - 500px);
 }
 #content_left,#rs,#page{
-    padding-top: 35px;
+    top: 35px;
     position:relative;
     padding-left: 0;
     width: 50%!important;

@@ -29,7 +29,7 @@
 .sfibbbc{
     width: 760px;
 }
-.tsf-p>.logocont, ##sej-container{
+.tsf-p>.logocont, #sej-container{
     padding-left: calc(50vw - 450px) !important;
 }
 .tsf-p>.sfibbbc{
@@ -55,10 +55,8 @@
     margin: 0 auto;
 }
 .mw #rhs {
-    margin-left: calc(38vw + 670px);
-}
-.mw #rhs{   
     display:none;
+    margin-left: calc(38vw + 690px);
 }
 @media screen and (min-width:1800px){   
   .mw #rhs{   
