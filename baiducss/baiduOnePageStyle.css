@@ -1,6 +1,9 @@
 #container{
     width: 100% !important;
 }
+#container #sej-container{
+    margin-left: calc(44% - 365px) !important;
+}
 #form{
     position:relative;
     left:calc(44% - 365px);

@@ -29,7 +29,7 @@
 .sfibbbc{
     width: 760px;
 }
-.tsf-p>.logocont{
+.tsf-p>.logocont, ##sej-container{
     padding-left: calc(50vw - 450px) !important;
 }
 .tsf-p>.sfibbbc{
