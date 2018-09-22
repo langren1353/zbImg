@@ -15,7 +15,6 @@
 }
 #s_tab b,#s_tab a {
     position: relative;
-    left: calc(50% - 350px);
 }
 #result_logo{
     position: relative;

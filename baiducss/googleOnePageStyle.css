@@ -58,6 +58,10 @@
     display:none;
     margin-left: calc(38vw + 690px);
 }
+.med #botstuff{
+    width: 890px !important;
+    margin: 0 auto;
+}
 @media screen and (min-width:1800px){   
   .mw #rhs{   
     display:block !important;
