@@ -305,7 +305,6 @@ a em {
         opacity: 1;
     }
 }
-#center_col>*{padding-left:8%;padding-right:8%;}
 .bkWMgd>div:not([class]){
     width: 730px;
 }
