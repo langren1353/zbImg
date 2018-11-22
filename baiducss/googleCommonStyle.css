@@ -327,3 +327,7 @@ a em {
     display:none;
   }   
 }
+/**搜索框居中**/
+.jsrp>form{
+    margin:0 auto;
+}
