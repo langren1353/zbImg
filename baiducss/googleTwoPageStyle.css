@@ -64,7 +64,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
 }
-/**ËÑË÷¿ò¾ÓÖÐ**/
+/**search box align center**/
 .jsrp>form{
     margin:0 auto;
 }
