@@ -1,1 +1,12 @@
 ﻿/*存放单列居中样式*/
+/*存放双列样式*/
+#b_results{
+    width: 80vw;
+    grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+    display: inline-block;
+}
+#b_msg, #b_pag{
+    grid-column-end: 3;
+    grid-column-start: 1;
+    background-color: #FFFFFF;
+}

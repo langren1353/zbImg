@@ -1,7 +1,7 @@
 ﻿/******************* 屏蔽不需要的内容 *******************/
 /* 普通内容 */
 iframe,
-.res_top_banner
+div.res_top_banner
 #foot,
 #page .fk,
 #head .headBlock,
@@ -12,7 +12,7 @@ iframe,
 .srg .c-recommend,
 .srg .leftBlock,
 .srg .hit_top_new,
-.srg .rrecom-btn-parent,
+.srg div.rrecom-btn-parent,
 #content_right,
 #center_col>#taw,
 #demo {
@@ -97,14 +97,14 @@ a em {
     -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
 }
-#rs, .bkWMgd .g .rc .s{
+#rs, .bkWMgd .g div.rc .s{
     max-width:unset;
 }
 .bkWMgd .g:hover{
     box-shadow:0 0 2px gray;background:rgba(230,230,230,0.1)!important;
 }
 .bkWMgd .g[tpl='soft'] .op-soft-title,
-.bkWMgd .g h3 {
+.bkWMgd .g div.r {
     background-color: #f8f8f8;
     margin: 0px -20px 10px -20px;
     padding: 8px 20px 5px;
@@ -173,22 +173,30 @@ a em {
 /* 标题*/
 .bkWMgd .g[tpl='soft'] .op-soft-title a,
 .bkWMgd .g[tpl='soft'] .op-soft-title a em,
-.bkWMgd .g h3 a,
+.bkWMgd .g div.r> a,
 .bkWMgd .g a h3,
-.bkWMgd .g h3 a em {
+.bkWMgd .g div.r> a em {
     color: #2866bd;
     font-weight: bold;
 }
+/* 标题:visied */
+.srg .op-soft-title a:visited,
+.srg .op-soft-title a:visited em,
+.bkWMgd .g div.r> a:visited,
+.bkWMgd .g div.r> a:visited em,
+.bkWMgd .g a:visited h3 {
+    color: #660099;
+}
 .srg .op-soft-title a,
-.bkWMgd .g h3 a {
+.bkWMgd .g div.r> a {
     position: relative;
 }
 .srg .op-soft-title a em,
-.bkWMgd .g h3 a em {
+.bkWMgd .g div.r> a em {
     text-decoration: none;
 }
 .srg .op-soft-title a:hover:after,
-.bkWMgd .g h3 a:hover:after {
+.bkWMgd .g div.r> a:hover:after {
     left: 0;
     width: 100%;
     -webkit-transition: width 350ms;
@@ -196,7 +204,7 @@ a em {
     transition: width 350ms;
 }
 .srg .op-soft-title a:after,
-.bkWMgd .g h3 a:after {
+.bkWMgd .g div.r> a:after {
     content: "";
     position: absolute;
     border-bottom: 2px solid #2866bd;
@@ -207,19 +215,13 @@ a em {
     -moz-transition: width 350ms, left 350ms;
     transition: width 350ms, left 350ms;
 }
-/* 标题:visied */
 
-.srg .op-soft-title a .bkWMgd .g h3 a {
+.srg .op-soft-title a .bkWMgd .g div.r> a {
     position: relative;
 }
-.srg .op-soft-title a:visited,
-.srg .op-soft-title a:visited em,
-.bkWMgd .g h3 a:visited,
-.bkWMgd .g h3 a:visited em {
-    color: #660099;
-}
+
 .srg .op-soft-title a:visited:hover:after,
-.bkWMgd .g h3 a:visited:hover:after {
+.bkWMgd .g div.r> a:visited:hover:after {
     left: 0;
     width: 100%;
     -webkit-transition: width 350ms;
@@ -227,7 +229,7 @@ a em {
     transition: width 350ms;
 }
 .srg .op-soft-title a:visited:after,
-.bkWMgd .g h3 a:visited:after {
+.bkWMgd .g div.r> a:visited:after {
     content: "";
     position: absolute;
     border-bottom: 2px solid #660099;
@@ -326,4 +328,7 @@ a em {
   .mw #rhs{   
     display:none;
   }   
+}
+cite{
+    font-weight:normal;
 }

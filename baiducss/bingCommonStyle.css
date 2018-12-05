@@ -4,7 +4,7 @@ body {
 }
 #b_results>li{
     width: 670px;
-    padding: 12px 20px;
+    padding: 12px 20px !important;
     margin-top: 0px;
     margin-bottom: 25px;
     border-radius: 5px;
@@ -18,6 +18,10 @@ body {
 #b_results h2 a {
     position: relative;
 }
+#b_results h2 a, #b_results h2 strong{
+    font-weight: bold;
+    font-size: medium;
+}
 #b_results>li:hover {
     box-shadow: 0 0 2px gray!important;
     background: rgba(230,230,230,0.1)!important;
@@ -29,11 +33,11 @@ body {
     border-radius: 5px 5px 0px 0px;
 }
 
-a, a em {
+a, a strong {
     text-decoration: none;
 }
-#b_results a em,
-#b_results h2 a em {
+#b_results a strong,
+#b_results h2 a strong {
     text-decoration: none;
 }
 #b_results a:hover:after,
@@ -55,4 +59,18 @@ a, a em {
     -webkit-transition: width 350ms, left 350ms;
     -moz-transition: width 350ms, left 350ms;
     transition: width 350ms, left 350ms;
+}
+#b_results h2 a:visited,
+#b_results h2 a:visited strong,
+#b_results h2 h2 a:visited,
+#b_results h2 h2 a:visited strong {
+    color: #660099;
+}
+#b_results h2 a:visited:hover:after,
+#b_results h2 h2 a:visited:hover:after {
+    left: 0;
+    width: 100%;
+    -webkit-transition: width 350ms;
+    -moz-transition: width 350ms;
+    transition: width 350ms;
 }
