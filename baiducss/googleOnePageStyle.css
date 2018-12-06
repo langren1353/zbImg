@@ -56,7 +56,7 @@
     width: 100vw;
     margin: 0 auto;
 }
-.mw #rhs {
+#main .mw #rhs {
     display:none;
     margin-left: calc(38vw + 690px);
 }
@@ -65,7 +65,7 @@
     margin: 0 auto;
 }
 @media screen and (min-width:1800px){   
-  .mw #rhs{   
+  #main .mw #rhs{   
     display:block !important;
   }   
 }

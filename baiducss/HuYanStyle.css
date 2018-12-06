@@ -6,7 +6,7 @@ body,#head, #s_tab{
 #content_left .result-op,
 #content_left .result,
 #container #rs ,
-#content_right{
+#container #content_right{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;
@@ -36,7 +36,7 @@ body,#head, #s_tab{
     background-color: #BBBBBB ;
 }
 /***谷歌护眼色****/
-.srg .g, .bkWMgd>.g, .bkWMgd g-inner-card{
+.srg .g, .bkWMgd>.g, .bkWMgd g-inner-card, #rhscol #rhs,#rhscol #rhs .g>div, .c2xzTb .g, .ruTcId .g, .fm06If .g, .cUnQKe .g, .HanQmf .g{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;

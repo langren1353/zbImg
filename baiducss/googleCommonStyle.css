@@ -318,7 +318,7 @@ a em {
 .bkWMgd .g .exp-outline{
     display:none;
 }
-.mw #rhs {
+#main .mw #rhs {
     margin-left: 1020px;
 }
 #res .g .ts{
@@ -332,3 +332,34 @@ a em {
 cite{
     font-weight:normal;
 }
+/**Mooncan Start**/
+/**行距调整*/
+#res .r{
+    line-height: 1.3;
+}
+/**Google连接框距离及样式小改*/
+#rs, .bkWMgd .g {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.bkWMgd .g div.r {
+    border-radius: 10px 10px 0px 0px;
+}
+/**改正首页答案摘要样式错误*/
+ .c2xzTb .g, .ruTcId .g, .fm06If .g, .cUnQKe .g, .HanQmf .g {
+    width: 758px;
+    padding-left:  20px !important;
+    padding-right: 20px !important;
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0);/*答案摘要阴影去除*/
+}
+div .xfxx5d {
+    margin-bottom: -18px !important;
+    margin-top: -25px !important;
+}
+div .xaqJzf.xfxx5d .kno-ftr{
+    margin-top: 10px !important;
+}
+div .kno-ftr a{
+    position: sticky;
+}
+/**Mooncan Stop**/
