@@ -24,6 +24,5 @@ body #b_header{
 }
 /*search engine jump*/
 body #sej-container{
-    width: 78vw;
-    margin: 0 auto;
+    padding-left: calc(12% - 113px) !important;
 }

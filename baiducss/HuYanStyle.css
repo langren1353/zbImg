@@ -5,7 +5,8 @@ body,#head, #s_tab{
 /*****百度护眼色*****/
 #content_left .result-op,
 #content_left .result,
-#container #rs {
+#container #rs ,
+#content_right{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;
