@@ -40,10 +40,10 @@
 .search>#ires .srg>.g{
     max-width: unset;
 }
-.mw #rhs{
+#main .mw #rhs{
     display:none;
 }
-.mw{
+#main .mw{
     max-width: unset;
 }
 #acid_src>div{
