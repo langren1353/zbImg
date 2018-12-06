@@ -80,3 +80,6 @@ a, a strong {
 body #b_header{
     background-color: #f5f5f5;
 }
+#b_content .b_underSearchbox{
+    margin-top: 10px;
+}

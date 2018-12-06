@@ -2,9 +2,6 @@
 #container {
     width: auto;
 }
-#sej-container{
-    padding-left: calc(12% - 113px) !important;
-}
 #form {
     position: relative;
     width: 50%;
@@ -90,4 +87,8 @@
 }
 .c-container h3 a{
     z-index:1;
+}
+/*search engine jump*/
+#sej-container{
+    padding-left: calc(12% - 113px) !important;
 }

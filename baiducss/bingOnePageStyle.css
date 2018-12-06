@@ -16,3 +16,8 @@ body #b_header{
 #b_results>li{
     width:98%;
 }
+/*search engine jump*/
+body #sej-container{
+    width: 78vw;
+    margin: 0 auto;
+}
