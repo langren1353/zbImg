@@ -70,6 +70,8 @@
   }   
 }
 /**search box align center**/
-.jsrp>form{
-    margin:0 auto;
+@media screen and (min-width:1280px){  
+    .jsrp>form{
+        margin:0 auto;
+    }
 }
