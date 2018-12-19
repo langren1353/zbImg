@@ -13,7 +13,7 @@ body #b_header{
 #b_header{
     margin: 0 auto;
 }
-#b_results>li{
+#b_content #b_results>li{
     width:98%;
 }
 /*search engine jump*/
