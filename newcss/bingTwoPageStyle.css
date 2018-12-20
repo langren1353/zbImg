@@ -1,4 +1,7 @@
 /*存放双列样式*/
+#container #content_left .hit_top_new{
+    display:none;
+}
 #b_content #b_results{
     width: 80vw;
     grid-template-columns: repeat(auto-fit,minmax(50%,1fr));

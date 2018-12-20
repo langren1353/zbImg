@@ -1,4 +1,4 @@
-/**加个注释**/
+/**BaiduCommonStyle**/
 iframe,
 .res_top_banner
 #foot,
@@ -9,6 +9,7 @@ iframe,
 #container #content_left .c-recommend,
 #container #content_left .leftBlock,
 #container #content_left .rrecom-btn-parent,
+#container #content_left >div:not([id]):not([class]),
 #demo {
     display: none!important;
 }
