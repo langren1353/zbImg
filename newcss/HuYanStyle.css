@@ -1,18 +1,20 @@
-/**加个注释**/
-body,#head, #s_tab{
+/**HuYanStyle**/
+body[baidu],
+#wrapper #head,
+#wrapper #s_tab{
     background-color: #FFFFFF;
 }
 /*****百度护眼色*****/
-#content_left .result-op,
-#content_left .result,
+#container #content_left .result-op,
+#container #content_left .result,
 #container #rs ,
 #container #content_right{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;
 }
-#content_left .result-op:hover,
-#content_left .result:hover {
+#container #content_left .result-op:hover,
+#container #content_left .result:hover {
     background-color: #CCCCCC !important;
 }
 /**
@@ -20,30 +22,45 @@ body,#head, #s_tab{
     且该规则优先级大于文件顺序优先级
     后文件：#content_left .result-op h3 大于 先文件：.result-op h3
 **/
-#content_left .result-op h3, #content_left .c-container h3, #rs .tt{
+#container #content_left .result-op h3, 
+#container #content_left .c-container h3,
+#container #rs .tt{
     background-color: #BBBBBB ;
 }
 /***必应护眼色****/
-.na_cnt .nws_itm, .nws_itmb, #b_results li{
+.na_cnt .nws_itm,
+.nws_itmb,
+#b_content #b_results li,
+body #b_header{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;
 }
-#b_results li:hover {
+#b_content #b_results li:hover {
     background-color: #CCCCCC !important;
 }
-#b_content >#b_results li h2{
+#b_content #b_results li h2{
     background-color: #BBBBBB ;
 }
 /***谷歌护眼色****/
-.srg .g, .bkWMgd>.g, .bkWMgd g-inner-card, #rhscol #rhs,#rhscol #rhs .g>div, .c2xzTb .g, .ruTcId .g, .fm06If .g, .cUnQKe .g, .HanQmf .g{
+.srg .g, .bkWMgd>.g,
+.bkWMgd g-inner-card,
+#rhscol #rhs,
+#rhscol #rhs .g>div,
+.c2xzTb .g,
+.ruTcId .g,
+.fm06If .g,
+.cUnQKe .g,
+.HanQmf .g{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;
 }
-.srg .g:hover,.bkWMgd>.g:hover {
+.srg .g:hover,
+.bkWMgd>.g:hover {
     background-color: #CCCCCC !important;
 }
-.bkWMgd .g div.r, .srg .g h3{
+.bkWMgd .g div.r,
+.srg .g h3{
     background-color: #BBBBBB ;
 }
