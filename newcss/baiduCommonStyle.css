@@ -18,14 +18,14 @@ iframe,
 body[baidu] {
     background-color: #f5f5f5;
 }
-#form .bdsug{
+form.fm .bdsug{
     width: 76%;
 }
 #ala_img_results{
     overflow:hidden;
 }
-a,
-a em {
+body a,
+body a em {
     text-decoration: none;
 }
 
@@ -37,24 +37,27 @@ body #head{
     background-color: #f8f8f8;
     border-bottom: none;
 }
-#form {
+form.fm {
     background-color: unset;
 }
-#form .bdsug li {
+form.fm .bdsug li {
     width: auto;
     color: #000;
     font: 15px arial;
     line-height: 26px;
 }
-#form .s_ipt_wr.bg {
+form.fm .s_ipt_wr.bg{
     background: #fff;
     width: 76%;
 }
-#form .s_btn {
+.wrapper_l #kw{
+    width: 100%;
+}
+form.fm .s_btn {
     background: #2866bd;
     border-bottom: 1px solid #4879bd;
 }
-#form .s_btn:hover {
+form.fm .s_btn:hover {
     background: #4F7FbF;
     border-bottom: 1px solid #2866bd;
 }
@@ -94,7 +97,8 @@ body #head{
     box-shadow:0 0 2px gray!important;
     background:rgba(230,230,230,0.1)!important;
 }
-#container #content_left .c-container[tpl='soft'] .op-soft-title,
+#container #content_left .result[tpl='soft'] .op-soft-title,
+#container #content_left .result h3,
 #container #content_left .c-container h3 {
     background-color: #f8f8f8;
     margin: 0px -20px 10px -20px;
@@ -153,27 +157,27 @@ body #head{
 }
 #container #content_left .se_com_irregular_gallery ul li,
 #container #content_left .op_jingyan_list,
-#container #content_left .c-container .op-img-address-link-type {
+#container #content_left .result .op-img-address-link-type {
     display: inline-block;
     margin-left: 10px;
 }
 #container #content_left .c-container[tpl='soft'] .op-soft-title a,
 #container #content_left .c-container[tpl='soft'] .op-soft-title a em,
 #container #content_left .c-container h3 a,
-#container #content_left .c-container h3 a em {
+#container #content_left .result h3 a em {
     color: #2866bd;
     font-weight: bold;
 }
 #container #content_left .op-soft-title a,
-#container #content_left .c-container h3 a {
+#container #content_left .result h3 a {
     position: relative;
 }
 #container #content_left .op-soft-title a em,
-#container #content_left .c-container h3 a em {
+#container #content_left .result h3 a em {
     text-decoration: none;
 }
 #container #content_left .op-soft-title a:hover:after,
-#container #content_left .c-container h3 a:hover:after {
+#container #content_left .result h3 a:hover:after {
     left: 0;
     width: 100%;
     -webkit-transition: width 350ms;
@@ -181,7 +185,7 @@ body #head{
     transition: width 350ms;
 }
 #container #content_left .op-soft-title a:after,
-#container #content_left .c-container h3 a:after {
+#container #content_left .result h3 a:after {
     content: "";
     position: absolute;
     border-bottom: 2px solid #2866bd;
@@ -192,18 +196,23 @@ body #head{
     -moz-transition: width 350ms, left 350ms;
     transition: width 350ms, left 350ms;
 }
+#container #content_left .result h3,
+#container #content_left .result-op h3{
+    font-weight: bold;
+    font-size: medium;
+}
 
-#container #content_left .op-soft-title a #content_left .c-container h3 a {
+#container #content_left .op-soft-title a #content_left .result h3 a {
     position: relative;
 }
 #container #content_left .op-soft-title a:visited,
 #container #content_left .op-soft-title a:visited em,
-#container #content_left .c-container h3 a:visited,
-#container #content_left .c-container h3 a:visited em {
+#container #content_left .result h3 a:visited,
+#container #content_left .result h3 a:visited em {
     color: #660099;
 }
 #container #content_left .op-soft-title a:visited:hover:after,
-#container #content_left .c-container h3 a:visited:hover:after {
+#container #content_left .result h3 a:visited:hover:after {
     left: 0;
     width: 100%;
     -webkit-transition: width 350ms;
@@ -211,7 +220,7 @@ body #head{
     transition: width 350ms;
 }
 #container #content_left .op-soft-title a:visited:after,
-#container #content_left .c-container h3 a:visited:after {
+#container #content_left .result h3 a:visited:after {
     content: "";
     position: absolute;
     border-bottom: 2px solid #660099;

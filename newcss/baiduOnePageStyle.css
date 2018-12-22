@@ -2,13 +2,13 @@
 #wrapper_wrapper #container{
     width: 100%;
 }
-#form{
+form.fm{
     position:relative;
     left:calc(44% - 365px);
     background-color: unset;
     width:50%;
 }
-.wrapper_l #form #kw{
+.wrapper_l form.fm #kw{
     width:98% !important;
 }
 #result_logo{
