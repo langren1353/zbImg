@@ -1,5 +1,5 @@
 /**baiduOnePageStyle**/
-#wrapper_wrapper #container{
+#wrapper_wrapper #container {
     width: 100%;
 }
 form.fm{
@@ -20,11 +20,11 @@ form.fm{
     position:relative;
     left:calc(50% - 445px);
 }
-#container .head_nums_cont_outer{
+#wrapper  .head_nums_cont_outer{
     position:absolute;
     left:calc(45vw - 500px);
 }
-#container #content_left,#container #rs,#container #page{
+#wrapper  #content_left,#wrapper  #rs,#wrapper  #page{
     top: 35px;
     position:relative;
     padding-left: 0;
@@ -34,31 +34,31 @@ form.fm{
     margin-left: unset;
     margin: 0 auto;
 }
-#container #rs .tt{
+#wrapper  #rs .tt{
     margin:0px -20px 1px 0px;
 }
-#container #content_left .c-container{
+#wrapper  #content_left .c-container{
     width: 100% !important;
     min-width:650px;
     margin: 0 auto;
 }
 @media screen and (min-width: 1000px) {
-    #container #content_left, #container #rs{
+    #wrapper  #content_left, #wrapper  #rs{
         min-width:850px;
     }
 }
-#container #content_right{
+#wrapper  #content_right{
     margin-right: calc(15vw - 210px);
     display:none;
 }
 @media screen and (min-width:1800px){   
-  #container #content_right{   
+  #wrapper  #content_right{   
     display:block;
     float: unset;
     position: absolute;
   }   
 }
-#container #page a, #container #page strong{
+#wrapper  #page a, #wrapper  #page strong{
     margin-right: 22px !important;
 }
 .s_tab_inner{

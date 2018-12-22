@@ -1,5 +1,5 @@
 /**baiduTowPageStyle**/
-#wrapper_wrapper #container {
+#wrapper_wrapper #container  {
     width: auto;
 }
 form.fm{
@@ -19,10 +19,11 @@ form.fm{
     position: relative;
     left: calc(12%);
 }
-#container .head_nums_cont_outer .search_tool_conter,#container .head_nums_cont_outer .nums {
+#wrapper .head_nums_cont_outer .search_tool_conter,
+#wrapper .head_nums_cont_outer .nums {
     width: 80%;
 }
-#container .head_nums_cont_outer,
+#wrapper  .head_nums_cont_outer,
 .hint_common_restop,
 #header_top_bar {
     position: relative;
@@ -32,7 +33,7 @@ form.fm{
 #wrapper #header_top_bar{
     margin-bottom: 0px;
 }
-#container #content_left{
+#wrapper #content_left{
     display: inline-grid;
     grid-template-columns: 50% 50%;
     margin: 0 auto;
@@ -43,19 +44,18 @@ form.fm{
     margin-left:7%;
     margin-bottom: 30px;
 }
-body[news] #container #content_left>div:not([class]):not([id]){
+body[news] #wrapper #content_left>div:not([class]):not([id]){
     display: inline-grid;
     grid-template-columns: 50% 50%;
 }
-#container #content_right{
+#wrapper #content_right{
     display:none !important;
 }
-#container #rs,
 #wrapper #rs{
     position: relative;
     margin: 0 auto;
 }
-#container #page {
+#wrapper #page {
     min-width: 710px;
     height: 40px;
     line-height: 40px;
@@ -64,15 +64,15 @@ body[news] #container #content_left>div:not([class]):not([id]){
     text-align: center;
     position: relative;
 }
-#container #content_left .result,
-#container #content_left .c-container {
+#wrapper  #content_left .result,
+#wrapper  #content_left .c-container {
     width: unset !important;
     max-width: 100%;
     margin-bottom: 30px;
     margin-left: 5px;
     margin-right: 15px;
 }
-#container #content_left>*:not([class*='result']){
+#wrapper  #content_left>*:not([class*='result']){
 	grid-column-start: 1;
 	grid-column-end: 3;
 }

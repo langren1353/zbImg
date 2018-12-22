@@ -1,21 +1,22 @@
 /**HuYanStyle**/
+/*****百度护眼色*****/
 body[baidu],
 #wrapper #head,
 #wrapper #s_tab,
 form.fm .s_ipt_wr.bg{
     background-color: #FFFFFF;
 }
-/*****百度护眼色*****/
-#container #content_left .result-op,
-#container #content_left .result,
-#container #rs ,
-#container #content_right{
+#wrapper #content_left .result-op,
+#wrapper #content_left .result,
+#wrapper #rs ,
+#wrapper #rs ,
+#wrapper #content_right{
     background-color: #AAAAAA ;
     border: 1px double #A2D7D4 ;
     border-radius: 0px;
 }
-#container #content_left .result-op:hover,
-#container #content_left .result:hover {
+#wrapper #content_left .result-op:hover,
+#wrapper #content_left .result:hover {
     background-color: #CCCCCC !important;
 }
 /**
@@ -23,9 +24,10 @@ form.fm .s_ipt_wr.bg{
     且该规则优先级大于文件顺序优先级
     后文件：#content_left .result-op h3 大于 先文件：.result-op h3
 **/
-#container #content_left .result-op h3, 
-#container #content_left .c-container h3,
-#container #rs .tt{
+#wrapper #content_left .result h3, 
+#wrapper #content_left .result-op h3, 
+#wrapper #content_left .c-container h3,
+#wrapper #rs .tt{
     background-color: #BBBBBB ;
 }
 /***必应护眼色****/
