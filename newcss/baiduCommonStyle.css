@@ -77,6 +77,7 @@ body #head{
 }
 
 #container #rs,
+#container #content_left .result,
 #container #content_left .c-container {
     width: 670px;
     padding: 0px 20px 15px;
