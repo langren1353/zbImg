@@ -45,6 +45,9 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
 }
+#acid_src>div{
+    grid-column-end: 6;
+}
 .srg{
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
