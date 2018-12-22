@@ -9,7 +9,8 @@ iframe,
 #container #content_left .c-recommend,
 #container #content_left .leftBlock,
 #container #content_left .rrecom-btn-parent,
-#demo {
+#demo,
+#container #gotoPage{
     display: none!important;
 }
 #container #content_right{
@@ -80,6 +81,7 @@ form.fm .s_btn:hover {
 }
 
 #container #rs,
+#wrapper #rs,
 #container #content_left .result,
 #container #content_left .c-container {
     width: 670px;
@@ -231,7 +233,8 @@ form.fm .s_btn:hover {
     -moz-transition: width 350ms, left 350ms;
     transition: width 350ms, left 350ms;
 }
-#container #rs {
+#container #rs,
+#wrapper #rs{
     margin-top: 0px;
     padding: 0px 20px 15px;
     border-radius: 5px;

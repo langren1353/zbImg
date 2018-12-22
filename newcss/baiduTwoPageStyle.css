@@ -50,7 +50,8 @@ body[news] #container #content_left>div:not([class]):not([id]){
 #container #content_right{
     display:none !important;
 }
-#container #rs {
+#container #rs,
+#wrapper #rs{
     position: relative;
     margin: 0 auto;
 }
