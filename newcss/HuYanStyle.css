@@ -1,7 +1,8 @@
 /**HuYanStyle**/
 body[baidu],
 #wrapper #head,
-#wrapper #s_tab{
+#wrapper #s_tab,
+form.fm .s_ipt_wr.bg{
     background-color: #FFFFFF;
 }
 /*****百度护眼色*****/
