@@ -6,12 +6,10 @@
 body #b_header{
     width: 79vw;
     background-color: #FFFFFF;
+    margin: 0 auto;
 }
 #b_content{
     margin-left: 5vw; 
-}
-#b_header{
-    margin: 0 auto;
 }
 #b_content #b_results>li{
     width:98%;
