@@ -51,8 +51,8 @@ form.fm .s_ipt_wr.bg{
     background: #fff;
     width: 76%;
 }
-.wrapper_l #kw{
-    width: 100%;
+body .wrapper_l #kw{
+    width: 94%;
 }
 form.fm .s_btn {
     background: #2866bd;
