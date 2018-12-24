@@ -46,6 +46,9 @@ body #b_header{
     background-color: #BBBBBB ;
 }
 /***谷歌护眼色****/
+body[google]{
+    background-color: #fDfDfD;
+}
 .srg .g, .bkWMgd>.g,
 .bkWMgd g-inner-card,
 #rhscol #rhs,
