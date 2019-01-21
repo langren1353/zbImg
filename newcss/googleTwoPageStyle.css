@@ -32,7 +32,14 @@
 }
 #acid_src>div{
     width: unset;
-    margin-left: 38px;
+    margin-left: 20px;
+    /**直接横占一行**/
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.bkWMgd .COEoid{
+    /*视频点-禁止边界问题*/
+    margin: unset;
 }
 .col{
     width: 100% !important;
@@ -45,12 +52,12 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
 }
-#acid_src>div{
-    grid-column-end: 6;
-}
 .srg{
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+}
+#acid_src div:last-child{
+    grid-column-end: 3;
 }
 /**search box align center**/
 .jsrp>form{
