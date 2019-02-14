@@ -9,7 +9,8 @@ iframe,
 #content_left .c-recommend,
 #content_left .leftBlock,
 #content_left .rrecom-btn-parent,
-#demo {
+#demo,
+#chunwan-wrapper{
     display: none!important;
 }
 #content_right{
