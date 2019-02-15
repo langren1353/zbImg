@@ -38,10 +38,10 @@
     padding-left: calc(50vw - 470px) !important;
 }
 #top_nav #hdtb-s{
-    padding-left: 19vw;
+    padding-left: calc(50vw - 580px);
 }
 .appbar #extabar #topabar{
-    padding-left: 19vw;
+    padding-left: calc(50vw - 580px);
 }
 #ires #brs{
     padding-left: calc(37vw - 200px);
@@ -58,7 +58,7 @@
 }
 #main .mw #rhs {
     display:none;
-    margin-left: calc(38vw + 705px);
+    margin-left: calc(80vw - 100px);
 }
 .med #botstuff{
     width: 890px !important;
